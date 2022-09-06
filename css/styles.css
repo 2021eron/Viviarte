@@ -146,13 +146,6 @@ h2:hover span {
   margin: 0 auto;
 }
 
-.produtos p {
-  width: 10px;
-  height: 10px;
-  color: black;
-  display: contents;
-}
-
 .produto {
   text-align: center;
   display: flex;
@@ -179,6 +172,10 @@ h2:hover span {
 
 #produto-2 {
   background-image: url(/img/trico.jpg);
+}
+
+#produto-3 {
+  background-image: url(/img/bolo.jpg);
 }
 
 #contato {
@@ -339,4 +336,60 @@ ul li:nth-child(2) a:before {
 
 ul li:nth-child(3) a:before {
   background: #00acee;
+}
+
+/* fotos */
+
+.fotos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.foto p {
+  background-color: #34af23;
+  width: 100%;
+  text-align: center;
+}
+
+.foto p:hover {
+  transform: rotate(5deg);
+}
+
+.foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.foto .foto-img {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+/*crochê*/
+
+#foto-1 {
+  background-image: url(/img/Boina.jpg);
+}
+
+#foto-2 {
+  background-image: url(/img/boina2.jpg);
+}
+
+#foto-3 {
+  background-image: url(/img/boina3.jpg);
+}
+
+#foto-4 {
+  background-image: url(/img/boina4.jpg);
+}
+
+.destaque {
+  background-color: orange;
+  text-align: center;
 }
