@@ -15,9 +15,20 @@
     url(/img/caminhomesa.jpg);
   background-position: center;
   background-size: cover;
-  height: 75vh;
+  height: 53vh;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+#event-description-two {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/img/caminhomesa.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -28,7 +39,7 @@
   text-align: center;
   width: 100%;
   background: #000;
-  padding: 30px;
+  padding: 5px;
 }
 
 p {
@@ -69,8 +80,6 @@ h2:hover span {
 #disclaimer h2 {
   color: rgb(175, 131, 11);
   font-size: 4em;
-  margin-bottom: 1em;
-  font-size: 4em;
   text-transform: uppercase;
   max-width: 340px;
   font-weight: bold;
@@ -91,9 +100,20 @@ h2:hover span {
   font-size: 2em;
 }
 
+#disclaimer-two h2 {
+  color: rgb(175, 131, 11);
+  font-size: 3em;
+  text-transform: uppercase;
+  max-width: 340px;
+  font-weight: bold;
+
+  letter-spacing: 15px;
+  text-shadow: 2px 1px 0px white;
+}
+
 #subscription-form {
   background-color: rgb(175, 131, 11);
-  padding: 2em;
+  padding: 1em 1.5em;
   max-width: 336px;
 }
 
@@ -130,7 +150,7 @@ h2:hover span {
   text-transform: uppercase;
   width: 100%;
   border: none;
-  padding: 12px;
+  padding: 10px;
   cursor: pointer;
   opacity: 0.7;
 }
@@ -142,7 +162,7 @@ h2:hover span {
 .produtos {
   display: flex;
   justify-content: space-around;
-  padding: 2em;
+  padding: 1em;
   margin: 0 auto;
 }
 
@@ -158,24 +178,24 @@ h2:hover span {
 }
 
 .produto .produto-img {
-  width: 250px;
-  height: 250px;
+  width: 245px;
+  height: 245px;
   border-radius: 50%;
   background-size: cover;
   background-position: center;
-  margin-bottom: 1em;
+  background-repeat: no-repeat;
 }
 
 #produto-1 {
-  background-image: url(/img/croche.jpg);
+  background-image: url(/img/Capacroche.jpg);
 }
 
 #produto-2 {
-  background-image: url(/img/trico.jpg);
+  background-image: url(/img/capatrico.jpg);
 }
 
 #produto-3 {
-  background-image: url(/img/bolo.jpg);
+  background-image: url(/img/capabolo.jpg);
 }
 
 #contato {
@@ -187,7 +207,6 @@ h2:hover span {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 3em;
 }
 
 #email,
@@ -263,6 +282,10 @@ h2:hover span {
     font-size: 35px;
     letter-spacing: 2px;
   }
+
+  .produto {
+    font-size: 1.2em;
+  }
 }
 
 /*mediasocial*/
@@ -272,7 +295,7 @@ h2:hover span {
   justify-content: center;
   align-items: center;
   min-height: 8vh;
-  position: relative;
+  position: realtive;
 }
 
 ul {
@@ -338,6 +361,15 @@ ul li:nth-child(3) a:before {
   background: #00acee;
 }
 
+#event-description-two .socialmedia ul li a {
+  width: 60px;
+  height: 60px;
+}
+
+#event-description-two .socialmedia svg {
+  width: 22px;
+}
+
 /* fotos */
 
 .fotos {
@@ -373,6 +405,11 @@ ul li:nth-child(3) a:before {
 }
 /*crochê*/
 
+.destaque {
+  background-color: orange;
+  text-align: center;
+}
+
 #foto-1 {
   background-image: url(/img/Boina.jpg);
 }
@@ -389,7 +426,34 @@ ul li:nth-child(3) a:before {
   background-image: url(/img/boina4.jpg);
 }
 
-.destaque {
-  background-color: orange;
-  text-align: center;
+#foto-5 {
+  background-image: url(/img/caminhodemesaredondo.jpg);
+}
+
+#foto-6 {
+  background-image: url(/img/jogodebanheiro.jpg);
+}
+
+#foto-7 {
+  background-image: url(/img/tapetesala.jpg);
+}
+
+#foto-8 {
+  background-image: url(/img/gola.jpg);
+}
+
+#foto-9 {
+  background-image: url(/img/bolo2.jpg);
+}
+
+#foto-10 {
+  background-image: url(/img/coxinha.jpg);
+}
+
+#foto-11 {
+  background-image: url(/img/esfiha.jpg);
+}
+
+#foto-12 {
+  background-image: url(/img/strogonoff.jpg);
 }
